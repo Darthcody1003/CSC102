@@ -9,7 +9,10 @@
 </head>
 <body>
     <h1>CRAPS</h1>
-    <button onclick="rollDice()">Roll Dice</button>
+    <button onclick="rollDice(), playAudio()" >Roll Dice</button>
+    <audio id="PokerChips">
+        <source src="PokerChips.mp3" type="audio/mpeg">
+    </audio>
     <div id="dice1"></div>
     <div id="dice2"></div>
     <div id="sum"></div>
@@ -17,5 +20,14 @@
     <!--Link to js script-->
     <script src="gamecode.js">
     </script>
+        <nav>
+            <a href="./final.html">Home</a><br>
+            <a href="./index.html">Horse</a><br>
+            <a href="./table.html">Guide</a><br>
+            <a href="boards.html">Boards</a><br>
+            <a href="userinput.html">Name Input</a><br>
+            <a href="strings.html">Strings</a><br>
+            <a href="MoveTest.html">Index</a><br>
+        </nav>
 </body>
 </html>

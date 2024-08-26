@@ -20,3 +20,8 @@ function rollDice() {
         document.getElementById("result").innerHTML = "Re-roll";
     }
 }
+
+function playAudio(){
+    var audio = document.getElementById("PokerChips");
+    audio.play();
+}
